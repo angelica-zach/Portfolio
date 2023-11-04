@@ -1,20 +1,33 @@
+:root {
+    --background:rgb(216, 216, 239);
+    --text:rgb(18, 18, 18);
+}   
 /* body */
-
+body{
+    background-color: var(--background);
+}
 /* navigation */
 
 /* hero */
 
 /* adding spacing */
 .hero{
-    margin-top:100px;
+    margin-top:50px;
+    background-image: url(/images/02-hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
-
+h1{
+color: 2px white ;
+}
 /* about me */
 
 /* work */
-
+.work
 /* skills */
-
+.skills{
+    background-color: var(--background);
+}
 /* footer */
 
 
