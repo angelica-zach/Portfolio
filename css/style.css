@@ -6,7 +6,7 @@
 body{
     background-color: var(--background);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+   line-height: 1.5;
 }
 h1,
 h2,
@@ -34,6 +34,7 @@ section{
     color: blue !important;
     font-size: 15px ;
 }
+/* adding hover animation */
 .nav-link:hover{
     text-decoration: underline dashed;
 }
