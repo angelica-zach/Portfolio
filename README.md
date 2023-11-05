@@ -5,7 +5,8 @@ The goal was to keep the styling as similar as possible to the original site. I 
 //link//
 ## Installation
 Press the green  code button in the top right of the screen and copy your desired method (eg. for shh keys copy and use git clone in your terminal)
-
+## Technologies
+Bootstrap 5
 ## Functions
 ![navbar](images/clicked-navbar.png) 
 picture showing navbar animation for hover
