@@ -13,6 +13,9 @@ Bootstrap 5
 picture showing navbar animation for hover
 ![footer](images/clicked-footer.png)
 picture showing footer animation for hover
+## Badges
+![Static Badge](https://img.shields.io/badge/bootstrap-red)
+
 ## License
 MIT License
 
