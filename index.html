@@ -10,12 +10,14 @@
 
    <!-- css -->
    <link href="css/style.css" rel="stylesheet">
-
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <title>Bootstrap Portfolio</title>
 </head>
 <body>
     <!-- Navigation -->
-        <nav class="navbar navbar-expand-sm ">
+        <nav class="navbar navbar-expand-sm sticky-top">
             <div class="container-fluid">
               <a  class="navbar-brand" >Portfolio</a>
               <div  id="navbarNav">
@@ -38,7 +40,6 @@
      <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1>Angelica Zachowski</h1>
-          <img src="images/IDpic.jpg" alt="image of me">
         </div>
       </div>
     </section>
@@ -46,7 +47,7 @@
       <section class="aboutMe" >
         <div class="container text-center" id="about-me">
             <h2 class="title">About Me</h2>
-            <p>Hi,welcome to my portfolio. I graduated from the University of Warwick in 2023 with a degree in Electrical and Electronic Engineering . During my course, I had undertaken a coding module and was immediately intrested. Although it was challenging and frustrating i still remember how satisfying it was to debugg my code and produce my first working code , kinda like magic! Since my graduation i have decided to further my knowledge of code and its appplications by undertaking a front-end web development course. Below are examples of my work </p>
+            <p>Welcome to my portfolio. I graduated from the University of Warwick  with a degree in Electrical and Electronic Engineering . During my course, I had undertaken a coding module and was immediately intrested. Since my graduation i have decided to further my knowledge of code and its appplications by undertaking a front-end web development course.I have been drawn to front end web development in particular as i enjoy both the analytical coding side of it and the design aspect. Below are examples of my work </p>
         </div>
 
       </section>
@@ -56,62 +57,55 @@
         <h3 class="title">My Work</h3>
         <div class="row">
             <div class="col-12">
-                <div class="card py-4 h-100 bg-transparent">
-                    <a href="https://angelica-zach.github.io/Week1--Accesibility-challenge/">
-                        <img src="images/code1big.jpg" class="card-img-top" alt="link to Accesibility challenge">
-                    </a>
-                    <div class="card-body text-center">
-                      <h4>Accesibility challenge</h4>
-                     <div class="small text-black-50">Using CSS and Html to refactor a webpage </div>
-                   </div>
+                <div class="card py-4 h-100 bg-secondary-subtle">
+                  <div class="card-body">
+                    <h5 class="card-title">Mood App</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">CSS ,HTML, JQuery , Spotify API , Bands in town API</h6>
+                    <p class="card-text">App created to be able to pick a mood card, which is then inputed into the spotify API to return top artists for that mood. If an artist is clicked tour dates are shown</p>
+                    <a href="https://angelica-zach.github.io/Mood-App/" class="card-link">Link</a>
                 </div>
             </div>
         </div>
         <div class="row ">
             <div class="col-6">
-                <div class="card py-4 h-100 bg-transparent">
-                    <a href="https://angelica-zach.github.io/prework-study-guide/">
-                        <img src="images/code2.jpg" class="card-img-top" alt="link to prework study guide">
-                    </a>
+                <div class="card py-4 h-100 bg-secondary-subtle">
                     <div class="card-body text-center">
-                      <h4>PreWork Study Guide</h4>
-                      <div class="small text-black-50">Using CSS, Html and javascript to set up a basic website</div>
+                      <h5 class="card-title">Weather Forecast Page</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">CSS ,HTML,JS,Open Weather API</h6>
+                      <p class="card-text">Weather site that allows location input, which then calls the Open Weather API to display a 5 day forecast. Last 5 searches saved and displayed for easy acces to recall</p>
+                      <a href="https://angelica-zach.github.io/Weather-Forecast-Page/" class="card-link">Link</a>
                     </div>
                 </div>
             </div>    
             <div class="col-6">
-                <div class="card py-4 h-100 bg-transparent">
-                    <a href="https://angelica-zach.github.io/Week2-Resume/">
-                        <img src="images/code3.jpg" class="card-img-top" alt="link to old portfolio">
-                    </a>
+                <div class="card py-4 h-100 bg-secondary-subtle">
                     <div class="card-body text-center">
-                      <h4>Portfolio</h4>
-                      <div class="small text-black-50">Using CSS and Html to build a first portfolio site draft</div>
+                        <h5 class="card-title">Calendar App</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CSS ,HTML,JS, Day.js</h6>
+                        <p class="card-text">A 9-5 work day calendar with date displayed from Day.JS. Also has colour coding for 3 different time states(past, present , future)</p>
+                        <a href="https://angelica-zach.github.io/Calendar-App/" class="card-link">Link</a>
                     </div>
                 </div>
-            </div>
+        </div>
         </div>
           <div class="row ">
              <div class="col-6">
-                 <div class="card py-4 h-100 bg-transparent">
-                     <a href="https://angelica-zach.github.io/Mock-coding-quiz/">
-                         <img src="images/code4.jpg" class="card-img-top" alt="link to coding quiz">
-                     </a>
-                        <div class="card-body text-center">
-                            <h4>Mock Coding Quiz</h4>
-                            <div class="small text-black-50">Using APIs and functions to create a mock coding quiz</div>
-                        </div>
+                 <div class="card py-4 h-100 bg-secondary-subtle">
+                     <div class="card-body text-center">
+                      <h5 class="card-title">Mock Coding Quiz</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">CSS ,HTML</h6>
+                      <p class="card-text">Using APIs and functions to create a mock coding quiz</p>
+                      <a href="https://angelica-zach.github.io/Mock-coding-quiz/" class="card-link">Link</a>
+                  </div>
                    </div>
              </div>
                 <div class="col-6">
-                    <div class="card py-4 h-100 bg-transparent">
-                        <a href="https://angelica-zach.github.io/Calendar-App/">
-                        <img src="images/code5.jpg" class="card-img-top" alt="link to calendar app">
-                        </a>
-                        <div class="card-body text-center">
-                          <h4>Calendar App</h4>
-                          <div class="small text-black-50">Using Day.Js API to source time and format it aswell as local storage</div>
-                        </div>
+                    <div class="card py-4 h-100 bg-secondary-subtle">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Password Generator</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CSS ,HTML,js</h6>
+                        <p class="card-text">Creating random secure passwords based on input variables</p>
+                        <a href="https://angelica-zach.github.io/Calendar-App/" class="card-link">Link</a>
                     </div>
                 </div>
            </div>
@@ -121,13 +115,15 @@
       <section class="skills text-center">
         <div class="container  ">
         <h4 class="title">Skills</h4>
-        <ul class="list-group text-center ">
+        <ul class="list-unstyled text-center ">
             <li class="list-group-item bg-transparent">Fluent in Polish</li>
             <li class="list-group-item bg-transparent">CSS</li>
             <li class="list-group-item bg-transparent">HTML</li>
             <li class="list-group-item bg-transparent">Bootstrap</li>
             <li class="list-group-item bg-transparent">Figma</li>
             <li class="list-group-item bg-transparent">Matlab</li>
+            <li class="list-group-item bg-transparent">Node.js</li>
+            <li class="list-group-item bg-transparent">JavaScript</li>
           </ul>
         </div>
       </section>
@@ -137,12 +133,17 @@
             <h5 class="title">Contact Me</h5>
             <div class="row">
                 <div class="col">
-                     <a href="https://github.com/angelica-zach" alt="link to github"  >
+                     <a href="https://github.com/angelica-zach" alt="link to github" class="footer-link"  >
                         Github
                     </a>
                     </div>
                     <div class="col">
-                     <a href="mailto:angelscakeunicorn@gmail.com" alt="link to email" >
+                      <a href="https://www.linkedin.com/in/angelica-zachowski/" alt="link to linkedin" class="footer-link" >
+                         LinkedIn
+                     </a>
+                     </div>
+                    <div class="col">
+                     <a href="mailto:angelscakeunicorn@gmail.com" alt="link to email" class="footer-link" >
                         Email
                     </a>
                     </div>

@@ -1,6 +1,7 @@
 :root {
-    --background:rgb(216, 216, 239);
+    --background:#fffffb;
     --text:rgb(18, 18, 18);
+    --font: "PT Mono", monospace;
 }   
 /* body */
 body{
@@ -24,6 +25,7 @@ p {
 .title{
     text-decoration: underline dotted green;
     font-size: 30px;
+    font-family:  var(--font);
 }
 /* overall spacing set */
 section{
@@ -33,20 +35,17 @@ section{
 .nav-link{
     color: blue !important;
     font-size: 15px ;
+    font-family:  var(--font);
 }
 /* adding hover animation */
 .nav-link:hover{
     text-decoration: underline dashed;
 }
 
-/* hero */
-.hero{
-    background-image: url(../images/02-hero-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
-h1{
-color: white ;
+.hero h1{
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* about me */
@@ -55,17 +54,10 @@ color: white ;
 }
 
 /* work */
-.card-title{
-    position: relative;
-    height:60px;
-    width:300px;
-    right:20%;
-    top:-10%;
-    background-color: rgba(0,0,0,.5);
-    color: white;
-    border: 2px var(--text);
-    border-radius:20px;
-}
+  h5{
+   font-stretch: expanded;
+   text-decoration: double;
+} 
 
 /* skills */
 .skills ul{
@@ -73,11 +65,7 @@ color: white ;
 }
 
 /* footer */
-/* on hover links will enlarge and turn red */
-a:hover{
-    color:red;
-    font-size: 20px;
-}
+
 
 /* for mobile phones */
 [class*="col-"] {
