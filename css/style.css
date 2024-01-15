@@ -79,6 +79,15 @@ background: url('/images/hero.jpg') no-repeat center center fixed;
 
 /* footer */
 
+/* mood page */
+.head h1{
+  font-family: var(--font);
+}
+
+
+.maintext{
+  background-color:   rgb(195 219 208);
+}
 
 @media (max-width: 576px) {
  .hero h1 {
