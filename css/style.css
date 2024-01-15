@@ -88,6 +88,19 @@ background: url('/images/hero.jpg') no-repeat center center fixed;
 .maintext{
   background-color:   rgb(195 219 208);
 }
+.green{
+  color: green;
+}
+.pink{
+color: palevioletred;
+}
+.purple{
+  color: plum;
+}
+
+.card{
+  background-color: rgba(153, 186, 164, 0.655);
+}
 
 @media (max-width: 576px) {
  .hero h1 {
