@@ -43,7 +43,7 @@ section{
 }
 
 .jumbotron{
-background: url('/images/hero.jpg') no-repeat center center fixed;
+background: url('../images/hero.jpg') no-repeat center center fixed;
   padding-bottom: 20%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -101,6 +101,7 @@ color: palevioletred;
 .card{
   background-color: rgba(153, 186, 164, 0.655);
 }
+
 
 @media (max-width: 576px) {
  .hero h1 {
