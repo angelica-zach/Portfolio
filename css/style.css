@@ -41,7 +41,9 @@ section{
 .nav-link:hover{
     text-decoration: underline dashed;
 }
-
+.font{
+  font-family: var(--font);
+}
 .jumbotron{
 background: url('../images/hero.jpg') no-repeat center center fixed;
   padding-bottom: 20%;
@@ -60,7 +62,13 @@ background: url('../images/hero.jpg') no-repeat center center fixed;
     font-style: normal;
     font-size: 7rem;
 }
-
+.maincard{
+  height:80vh ;
+  background: url('../images/backgroup-mood.png') no-repeat ;
+  background-size: cover; /* Resize the background image to fit the container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; 
+}
 /* about me */
 .aboutMe p{
     word-spacing: 1px;
@@ -84,9 +92,17 @@ background: url('../images/hero.jpg') no-repeat center center fixed;
   font-family: var(--font);
 }
 
+.moodboard{
+  background: url('../images/backgroup-mood.png') no-repeat center center fixed;
+  padding-bottom: 20%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height:600px;}
 
 .maintext{
-  background-color:   rgb(195 219 208);
+  background-color:  rgb(195 219 208);
 }
 .green{
   color: green;
@@ -101,7 +117,9 @@ color: palevioletred;
 .card{
   background-color: rgba(153, 186, 164, 0.655);
 }
-
+.question{
+  color: rgb(60, 78, 29);
+}
 
 @media (max-width: 576px) {
  .hero h1 {
