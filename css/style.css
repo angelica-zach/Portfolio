@@ -51,16 +51,17 @@ background: url('../images/hero.jpg') no-repeat center center fixed;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height:600px;
+  /* height:600px; */
 }
 .hero{
   margin-top: -56px;
+  
 }
 .hero h1{
     font-family: "PT Mono", monospace;
     font-weight: 200;
     font-style: normal;
-    font-size: 7rem;
+    font-size:  calc(2rem + 6.5vw);
 }
 .maincard{
   height:80vh ;
@@ -121,11 +122,7 @@ color: palevioletred;
   color: rgb(60, 78, 29);
 }
 
-@media (max-width: 576px) {
- .hero h1 {
-    font-size: 3rem; /* Adjust size for screens up to 576px width */
-  }
-}
+
 /* for mobile phones */
 [class*="col-"] {
     width: 100%;
