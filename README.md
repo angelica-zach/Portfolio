@@ -1,9 +1,9 @@
-# Bootstrap-Portfolio
+# Portfolio
 ## Description
-In this project, i recreated a website to show off my design resume . This is building off last weeks project of a rsume ite but this time bootstrap 5 eas inmplemented. A website is the best format for my resume as potential employers can easily view my work by clicking links , as well as easy links to contact me , and can see physical evidence of my skills.
+In this project, i recreated a website to show off my design resume . 
 The goal was to keep the styling as similar as possible to the original site. I have made some changes however , to make the site more visually appealing and useful. Firstly i added a skills section , so employers can see what other skills i have. I also chaged the grid card layout of my work to have titles directly underneath(and also included a brief description) , as i believe that my original layout of having the titles offcenter and to the right might have made it more visually muddy and harder to read, especially for people with vision impairments. I also included hover animations for the navbar and contact me links.
 I also compressed and resized images to achieve a faster loading
-[Bootstrap Portfolio](https://angelica-zach.github.io/Bootstrap-Portfolio/)
+[ Portfolio](https://angelica-zach.github.io/Portfolio/)
 ## Installation
 Press the green  code button in the top right of the screen and copy your desired method (eg. for shh keys copy and use git clone in your terminal)
 ## Technologies
